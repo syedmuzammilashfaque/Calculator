@@ -1,0 +1,132 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #ececec;
+}
+
+    #author{
+      display: flex;
+      justify-content: right;
+        
+        margin:10px;
+        border: 8px solid #ececec;
+        border-radius: 20px;
+        -webkit-appearance: none;
+        box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+        10px 10px 15px rgba(70,70,70,0.12);
+        width: 300px; 
+        height: 30px;
+    }
+
+
+#author  p {
+    box-shadow: -10px -10px 15px rgba(241, 144, 144, 0.973)
+    10px 10px 15px rgba(70,70,70,0.12);
+    color:  rgba(241, 144, 144, 0.973);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+#author  a {
+    line-height: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    box-shadow: -10px -10px 15px rgba(241, 144, 144, 0.973)
+    10px 10px 15px rgba(70,70,70,0.12);
+    color:  rgba(241, 144, 144, 0.973);
+}
+
+.container{
+    height: 550px !important;
+    margin: 10px  auto !important;
+}
+
+
+.calculator{
+    border: 8px solid #ececec;
+    border-radius: 20px;
+    -webkit-appearance: none;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12);
+    width: 300px !important; 
+    height: 520px;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+}
+
+
+
+#result{
+    
+    height: 120px;
+}
+
+
+#history{
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding: 20px;
+  font-size: 15px;
+  color: #91919191;
+}
+
+
+#output{
+    background: #ececec;
+    border: 8px solid #ececec;
+    border-radius: 20px;
+    -webkit-appearance: none;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12);
+    height: 60px;
+    margin: 10px 20px;
+    text-align: right;
+    font-size: 30px;
+    color: #000;
+}
+
+
+#keyboard{
+    height: 400px;
+}
+
+.operator, .number, .empty{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    float: left;
+    border-radius: 5px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background: transparent;
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.operator{
+    background: #d4d3d3;
+   box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12);
+}
+
+
+
+.operator:active, .number:active{
+    font-size: 14px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+outline: 0;
+}
